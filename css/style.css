@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+	font-family: 'Playball', sans-serif;
+	font-weight: bold;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 1.5em;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background-image: url('../img/appImageShop.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	text-align: center;
+}
+#wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,0,0,.3);
+	color: black;
+}
+
+#input_list_item {
+	height: 25px;
+	width: 40%;
+}
+
+#input_list_item:hover {
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+}
+
+.form-buttons {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: bold;
+	font-weight: 1.5em;
+	color: white;
+	background-color: red;
+	margin: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border-style: none;
+}
+.form-buttons:hover {
+	background-color: orange;
+	box-shadow: 5px 5px 5px black;
+}
+
+#addArea {
+	margin-top: 10%;
+}
+#listArea {
+	padding: 20px;
+	margin: auto;
+	background-color: white;
+	border-radius: 2px;
+	width: 60%;
+	height: 70%;
+}
