@@ -46,7 +46,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*---------------------------
+      GENERAL
+----------------------------*/
 h1 {
 	font-family: 'Playball', sans-serif;
 	font-weight: bold;
@@ -72,6 +74,9 @@ body {
 	width: 100%;
 	text-align: center;
 }
+
+/*----Enclosing Div----*/
+
 #wrapper {
 	position: absolute;
 	height: 100%;
@@ -79,6 +84,12 @@ body {
 	background-color: rgba(255,0,0,.3);
 	color: black;
 }
+
+/*---------------------------
+      ADD TO LIST AREA
+----------------------------*/
+
+/*----Input Panel----*/
 
 #input_list_item {
 	height: 25px;
@@ -90,6 +101,10 @@ body {
 	border-width: 1px;
 	border-color: blue;
 }
+
+/*----Add button----*/
+     
+
 
 .form-buttons {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -110,6 +125,10 @@ body {
 #addArea {
 	margin-top: 10%;
 }
+/*---------------------------
+      SHOPPING LIST AREA
+----------------------------*/
+
 #listArea {
 	padding: 20px;
 	margin: auto;
@@ -117,4 +136,29 @@ body {
 	border-radius: 2px;
 	width: 60%;
 	height: 70%;
+}
+
+
+/*---------------------------
+      UNPURCHASED TAB
+----------------------------*/
+#unPurchased-tab {
+	float: left;
+	margin: 2.5px;
+}
+section ul {
+	list-style: none;
+}
+
+
+
+
+
+/*---------------------------
+      PURCHASED TAB
+----------------------------*/
+
+#purchased-tab {
+	float: right;
+	margin: 2.5px;
 }
