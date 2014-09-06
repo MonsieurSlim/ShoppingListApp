@@ -137,12 +137,19 @@ body {
 	width: 60%;
 	height: 70%;
 }
+#listArea h1 {
+	font-size: 1.25em;
+	margin: 10px 10px;
+}
 
 
 /*---------------------------
       UNPURCHASED TAB
 ----------------------------*/
 #unPurchased-tab {
+	width: 45%;
+	height: 90%;
+	background-color: rgba(255,192,203,0.7);
 	float: left;
 	margin: 2.5px;
 }
@@ -159,6 +166,26 @@ section ul {
 ----------------------------*/
 
 #purchased-tab {
+	width: 45%;
+	height: 90%;
+	background-color: rgba(255,192,203,0.7);
 	float: right;
 	margin: 2.5px;
+}
+@media screen and (max-width: 999px) {
+	#addArea {
+		position: absolute;
+		top: 30%;
+		left: 30%;
+	}
+
+	#listArea {
+		position: absolute;
+		top: 60%;
+		left: 15%;
+	}
+	#unPurchased-tab, #purchased-tab {
+		font-size: 0.6em;
+		font-weight: normal;
+	}
 }
